@@ -1,7 +1,8 @@
-package via.dk;
+package cli;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		CliApp cliApp = new CliApp();
+		cliApp.start();
 	}
 }
